@@ -1,4 +1,4 @@
-package ru.vladborisov.traingserver.model;
+package ru.vladborisov.trainingservice.model;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -13,7 +13,8 @@ import java.util.Set;
 public class Exercise {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "exercise_seq")
+    @SequenceGenerator(name = "exercise_seq", sequenceName = "exercise_id_seq", allocationSize = 1)
     @Column(name = "exercise_id")
     private Long id;
 

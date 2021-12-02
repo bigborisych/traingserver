@@ -1,13 +1,13 @@
-package ru.vladborisov.traingserver;
+package ru.vladborisov.trainingservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TraingserverApplication {
+public class TrainingServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TraingserverApplication.class, args);
+        SpringApplication.run(TrainingServiceApplication.class, args);
     }
 
 }

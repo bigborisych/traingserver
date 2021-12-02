@@ -1,10 +1,10 @@
-package ru.vladborisov.traingserver;
+package ru.vladborisov.trainingservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TraingserverApplicationTests {
+class TrainingServiceApplicationTests {
 
     @Test
     void contextLoads() {
